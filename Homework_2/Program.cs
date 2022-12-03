@@ -5,8 +5,7 @@
 
 Console.WriteLine("Enter number ");
 
-string enterNum = Console.ReadLine();
-int num = Convert.ToInt32(enterNum);
+int num =int.Parse(Console.ReadLine());
 int num2 = 0;
 int num3 = 0;
 
