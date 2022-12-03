@@ -9,7 +9,7 @@ Console.WriteLine("Enter a three-digit number ");
 string enterNum = Console.ReadLine();
 int num = Convert.ToInt32(enterNum);
 
-if (enterNum.Length==3)
+if (enterNum.Length == 3)
 {
     int num2 = num % 100;
 
